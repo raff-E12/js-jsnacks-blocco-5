@@ -21,3 +21,7 @@ const students = [
 
 // Recupera i dati dello studente con id 2
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
+
+const filter_student_2 = students.filter(list => list.id === 2);
+
+console.log(filter_student_2);
