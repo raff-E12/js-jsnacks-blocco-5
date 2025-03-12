@@ -7,8 +7,12 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
-const HandleFunctionNameObj = people.map((list)=>{
-    return list.name;
+const HandleFunctionNameObj = ()=>{
+  let rs = "";
+  people.forEach((list)=>{
+     rs += list.name;
 })
+return rs
+}
 
-console.log(HandleFunctionNameObj);
+console.log(HandleFunctionNameObj());
