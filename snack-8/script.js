@@ -21,3 +21,7 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+const filter_class_students = students.filter( list => list.class === "3C");
+
+console.log(filter_class_students);
